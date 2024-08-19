@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    background: #fff;
+    color: #000;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 93px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 90px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-right: 40px;
+    gap: 70px;
+    font-weight: 700;
+    font-size: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+header ul li a:hover{
+    text-decoration: underline;
+    color: rgba(25, 206, 206, 1);
+}
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.logo{
+    font-weight: 900;
+    font-size: 64px;
+    color: rgba(25, 206, 206, 1);
+}
+.header hr{
+    color: rgba(25, 206, 206, 1);
+    background-color: rgba(25, 206, 206, 1);
+}
